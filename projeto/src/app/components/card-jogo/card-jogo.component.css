@@ -1,6 +1,7 @@
 img {
   max-width: 100%;
   border: 2px solid rgba(97, 97, 97, 0.582);
+  border-radius: 5%;
 }
 
 .info {
