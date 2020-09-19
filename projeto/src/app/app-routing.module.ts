@@ -4,15 +4,17 @@ import { MenuPagLayoutComponent } from './components/menu-pag-layout/menu-pag-la
 import { SobrePageComponent } from './components/sobre-page/sobre-page.component';
 import { JogoPageComponent } from './components/jogo-page/jogo-page.component';
 import { HelpComponent } from './components/help/help.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
 
 
 const routes: Routes = [
   {
     path: '', component: MenuPagLayoutComponent,
     children: [
-      { path: '', component: JogoPageComponent },
+      { path: '', component: HomepageComponent },
+      { path: 'lista-de-jogos', component: JogoPageComponent },
       { path: 'sobre', component: SobrePageComponent },
-      { path: 'help', component: HelpComponent },
+      { path: 'help', component: HelpComponent }
     ]
   },
 ];
