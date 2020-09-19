@@ -22,6 +22,7 @@ import localePt from '@angular/common/locales/pt';
 import { FixedButtonComponent } from './components/fixed-button/fixed-button.component';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatSelectModule} from '@angular/material/select';
+import { SelectGenreComponent } from './components/select-genre/select-genre.component';
 
 registerLocaleData(localePt, 'pt-BR');
 
@@ -31,7 +32,8 @@ registerLocaleData(localePt, 'pt-BR');
     MenuPagLayoutComponent,
     ExemploComponent,
     SobrePageComponent,
-    FixedButtonComponent
+    FixedButtonComponent,
+    SelectGenreComponent
   ],
   imports: [
     BrowserModule,
