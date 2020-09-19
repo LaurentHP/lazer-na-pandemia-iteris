@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MenuPagLayoutComponent } from './components/menu-pag-layout/menu-pag-layout.component';
-import { ExemploComponent } from './components/exemplo/exemplo.component';
 import { SobrePageComponent } from './components/sobre-page/sobre-page.component';
 import { JogoPageComponent } from './components/jogo-page/jogo-page.component';
 
