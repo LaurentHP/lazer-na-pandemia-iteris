@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SobrePageComponent implements OnInit {
 
-  title = 'Projeto do Hackthon Decola 2020';
-  descricao = 'Projeto de exemplo fornecido para estudo.';
+  title = 'Equipe 06';
+  descricao = 'Desenvolvemos este projeto com o intuito de fornecer opções ao tédio em meio a quarentena. Dentro desta plataforma iremos falar um pouco sobre jogos digitais, de maneira acessível a todas as idades';
   copyright = 'Copyright 2020 Iteris Consultoria e Software LTDA';
 
   constructor() { }
