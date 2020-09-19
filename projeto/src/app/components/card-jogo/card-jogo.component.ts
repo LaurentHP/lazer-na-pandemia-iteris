@@ -16,6 +16,7 @@ export class CardJogoComponent implements OnChanges {
   platform:string [];
   year:number;
 
+
   constructor() { }
   ngOnChanges(changes: SimpleChanges): void {
     if (this.jogo!= null) {
