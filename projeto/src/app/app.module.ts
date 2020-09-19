@@ -19,13 +19,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
-<<<<<<< HEAD
 import { FixedButtonComponent } from './components/fixed-button/fixed-button.component';
 import {MatMenuModule} from '@angular/material/menu';
-
-=======
-import { MatSelectModule } from '@angular/material/select';
->>>>>>> d66d874a310d236793de71e21bad16c21be9b5bb
+import {MatSelectModule} from '@angular/material/select';
 
 registerLocaleData(localePt, 'pt-BR');
 
@@ -51,11 +47,8 @@ registerLocaleData(localePt, 'pt-BR');
     FormsModule,
     HttpClientModule,
     MatCardModule,
-<<<<<<< HEAD
-    MatMenuModule
-=======
+    MatMenuModule,
     MatSelectModule
->>>>>>> d66d874a310d236793de71e21bad16c21be9b5bb
   ],
   providers:  [{provide: LOCALE_ID, useValue: 'pt-BR'}],
   bootstrap: [AppComponent]
