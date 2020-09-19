@@ -13,10 +13,8 @@ export class CardJogoComponent implements OnChanges {
   imgUrl: string;
   genre:string;
   name:string;
-  plataform:string;
+  platform:string [];
   year:number;
-
-
 
   constructor() { }
   ngOnChanges(changes: SimpleChanges): void {
@@ -25,7 +23,7 @@ export class CardJogoComponent implements OnChanges {
       this.imgUrl = this.jogo.photo;
       this.genre = this.jogo.genre;
       this.name = this.jogo.name;
-      this.plataform = this.plataform;
+      this.platform = this.jogo.platform;
       this.year = this.jogo.year;
 
   }
