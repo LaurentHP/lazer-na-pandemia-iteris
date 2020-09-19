@@ -26,6 +26,7 @@ import { JogoPageComponent } from './components/jogo-page/jogo-page.component';
 import { HelpComponent } from './components/help/help.component';
 import { MatExpansionModule } from '@angular/material/expansion';
 
+
 registerLocaleData(localePt, 'pt-BR');
 
 @NgModule({
@@ -56,6 +57,7 @@ registerLocaleData(localePt, 'pt-BR');
     MatSelectModule,
     MatMenuModule,
     MatExpansionModule
+
   ],
   providers:  [{provide: LOCALE_ID, useValue: 'pt-BR'}],
   bootstrap: [AppComponent]
