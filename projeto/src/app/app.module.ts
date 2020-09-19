@@ -19,6 +19,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
+import { MatSelectModule } from '@angular/material/select';
 
 registerLocaleData(localePt, 'pt-BR');
 
@@ -42,7 +43,8 @@ registerLocaleData(localePt, 'pt-BR');
     // extra
     FormsModule,
     HttpClientModule,
-    MatCardModule
+    MatCardModule,
+    MatSelectModule
   ],
   providers:  [{provide: LOCALE_ID, useValue: 'pt-BR'}],
   bootstrap: [AppComponent]
