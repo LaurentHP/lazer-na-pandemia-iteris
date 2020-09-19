@@ -11,8 +11,7 @@ const routes: Routes = [
   {
     path: '', component: MenuPagLayoutComponent,
     children: [
-      { path: '', component: HomepageComponent },
-      { path: 'lista-de-jogos', component: JogoPageComponent },
+      { path: '', component: JogoPageComponent },
       { path: 'sobre', component: SobrePageComponent },
       { path: 'help', component: HelpComponent }
     ]
