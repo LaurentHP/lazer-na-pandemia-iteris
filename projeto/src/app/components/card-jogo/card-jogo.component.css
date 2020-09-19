@@ -1,5 +1,6 @@
 img {
   max-width: 100%;
+  border: 2px solid rgba(97, 97, 97, 0.582);
 }
 
 .info {
@@ -8,7 +9,7 @@ img {
 }
 
 .info2{
-
+  margin-bottom: 8px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
