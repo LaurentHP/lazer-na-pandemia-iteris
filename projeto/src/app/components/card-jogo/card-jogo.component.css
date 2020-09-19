@@ -6,5 +6,12 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
 }
 
+.info2{
+  font-size: 25px;
+  font-weight: bold;
+
+}
