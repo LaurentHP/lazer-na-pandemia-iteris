@@ -19,6 +19,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
+import { FixedButtonComponent } from './components/fixed-button/fixed-button.component';
+import {MatMenuModule} from '@angular/material/menu';
+
 
 registerLocaleData(localePt, 'pt-BR');
 
@@ -27,7 +30,8 @@ registerLocaleData(localePt, 'pt-BR');
     AppComponent,
     MenuPagLayoutComponent,
     ExemploComponent,
-    SobrePageComponent
+    SobrePageComponent,
+    FixedButtonComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +46,8 @@ registerLocaleData(localePt, 'pt-BR');
     // extra
     FormsModule,
     HttpClientModule,
-    MatCardModule
+    MatCardModule,
+    MatMenuModule
   ],
   providers:  [{provide: LOCALE_ID, useValue: 'pt-BR'}],
   bootstrap: [AppComponent]
