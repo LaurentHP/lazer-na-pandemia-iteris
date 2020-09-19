@@ -25,6 +25,7 @@ import { CardJogoComponent } from './components/card-jogo/card-jogo.component';
 import { JogoPageComponent } from './components/jogo-page/jogo-page.component';
 import { HelpComponent } from './components/help/help.component';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { HomepageComponent } from './components/homepage/homepage.component';
 
 
 registerLocaleData(localePt, 'pt-BR');
@@ -38,6 +39,7 @@ registerLocaleData(localePt, 'pt-BR');
     JogoPageComponent,
     FixedButtonComponent,
     HelpComponent,
+    HomepageComponent,
   ],
   imports: [
     BrowserModule,

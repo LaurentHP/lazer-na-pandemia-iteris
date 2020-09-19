@@ -29,6 +29,7 @@ export class CardJogoComponent implements OnChanges {
       this.name = this.jogo.name;
       this.platform = this.jogo.platform;
       this.year = this.jogo.year;
-  }
+      
+    }
   }
 }

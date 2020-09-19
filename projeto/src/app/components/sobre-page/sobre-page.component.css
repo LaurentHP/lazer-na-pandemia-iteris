@@ -14,3 +14,7 @@ h2{
   font-size: 25px;
   font-weight: bold;
 }
+
+.descricao {
+  text-align: justify;
+}
