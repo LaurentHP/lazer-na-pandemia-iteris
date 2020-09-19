@@ -20,6 +20,8 @@ import { LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
 import { MatSelectModule } from '@angular/material/select';
+import { CardJogoComponent } from './components/card-jogo/card-jogo.component';
+import { JogoPageComponent } from './components/jogo-page/jogo-page.component';
 
 registerLocaleData(localePt, 'pt-BR');
 
@@ -28,7 +30,9 @@ registerLocaleData(localePt, 'pt-BR');
     AppComponent,
     MenuPagLayoutComponent,
     ExemploComponent,
-    SobrePageComponent
+    SobrePageComponent,
+    CardJogoComponent,
+    JogoPageComponent
   ],
   imports: [
     BrowserModule,
