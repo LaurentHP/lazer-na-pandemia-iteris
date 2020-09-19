@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class HelpComponent implements OnInit {
   panelOpenState:boolean;
 
+  panelOpenState: boolean;
+
   constructor() { }
 
   ngOnInit(): void {

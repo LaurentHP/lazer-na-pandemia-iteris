@@ -19,13 +19,12 @@ import { LOCALE_ID } from '@angular/core';
 import { registerLocaleData } from '@angular/common';
 import localePt from '@angular/common/locales/pt';
 import { FixedButtonComponent } from './components/fixed-button/fixed-button.component';
-import {MatMenuModule} from '@angular/material/menu';
+import { MatMenuModule } from '@angular/material/menu';
 import { MatSelectModule } from '@angular/material/select';
 import { CardJogoComponent } from './components/card-jogo/card-jogo.component';
 import { JogoPageComponent } from './components/jogo-page/jogo-page.component';
 import { HelpComponent } from './components/help/help.component';
-import {MatExpansionModule} from '@angular/material/expansion';
-
+import { MatExpansionModule } from '@angular/material/expansion';
 
 
 registerLocaleData(localePt, 'pt-BR');
@@ -56,7 +55,9 @@ registerLocaleData(localePt, 'pt-BR');
     MatCardModule,
     MatMenuModule,
     MatSelectModule,
+    MatMenuModule,
     MatExpansionModule
+
   ],
   providers:  [{provide: LOCALE_ID, useValue: 'pt-BR'}],
   bootstrap: [AppComponent]
