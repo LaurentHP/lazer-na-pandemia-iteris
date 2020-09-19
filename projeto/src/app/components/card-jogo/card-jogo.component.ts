@@ -10,6 +10,7 @@ import { JogosModel } from 'src/app/services/jogosApi/jogos-model/jogos-model';
 export class CardJogoComponent implements OnChanges {
 
   @Input() jogo: JogosModel;
+  @Input() i:number;
 
   imgUrl: string;
   genre:string;
