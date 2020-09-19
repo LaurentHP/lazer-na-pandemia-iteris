@@ -1,0 +1,41 @@
+mat-panel-title {
+  font-weight: bold;
+  font-size: 15pt;
+}
+
+mat-panel-description {
+  font-weight: bold;
+  font-size: 16pt;
+}
+
+p {
+  font-size: 16pt;
+}
+
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2vh;
+  color: rgb(72, 72, 202);
+}
+
+h2 {
+  text-align: center;
+  padding-top: 2vh;
+  padding-bottom: 0.7vh;
+}
+
+button {
+  color: white;
+  background-color: rgb(82, 82, 255);
+
+}
+
+.social-medias {
+  font-weight: bold;
+  font-size: 25pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
