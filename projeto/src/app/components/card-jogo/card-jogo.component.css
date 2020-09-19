@@ -1,0 +1,13 @@
+img {
+  max-width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info .price {
+  font-weight: bold;
+}
