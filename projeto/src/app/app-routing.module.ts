@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { MenuPagLayoutComponent } from './components/menu-pag-layout/menu-pag-layout.component';
 import { SobrePageComponent } from './components/sobre-page/sobre-page.component';
 import { JogoPageComponent } from './components/jogo-page/jogo-page.component';
+import { HelpComponent } from './components/help/help.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
     children: [
       { path: '', component: JogoPageComponent },
       { path: 'sobre', component: SobrePageComponent },
+      { path: 'help', component: HelpComponent },
     ]
   },
 ];
