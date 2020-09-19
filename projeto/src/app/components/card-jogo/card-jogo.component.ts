@@ -1,4 +1,5 @@
-import { Component, Input, OnChanges, OnInit } from '@angular/core';
+import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import { JogosModel } from 'src/app/services/jogosApi/jogos-model/jogos-model';
 
 @Component({
   selector: 'app-card-jogo',
@@ -7,27 +8,29 @@ import { Component, Input, OnChanges, OnInit } from '@angular/core';
 })
 export class CardJogoComponent implements OnChanges {
 
-  @Input() jogo: JogoModel;
+  @Input() jogo: JogosModel;
 
   imgUrl: string;
   genre:string;
   name:string;
   plataform:string;
-  year:string;
+  year:number;
 
 
 
   constructor() { }
-
-  ngOnChange(): void {
+  ngOnChanges(changes: SimpleChanges): void {
     if (this.jogo!= null) {
 
-      this.imgUrl = this.jogo.image;
+      this.imgUrl = this.jogo.photo;
       this.genre = this.jogo.genre;
       this.name = this.jogo.name;
       this.plataform = this.plataform;
       this.year = this.jogo.year;
 
   }
+  }
+
+
 
 }

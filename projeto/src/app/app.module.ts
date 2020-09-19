@@ -34,7 +34,8 @@ registerLocaleData(localePt, 'pt-BR');
     MenuPagLayoutComponent,
     SobrePageComponent,
     CardJogoComponent,
-    JogoPageComponent
+    JogoPageComponent,
+    FixedButtonComponent,
   ],
   imports: [
     BrowserModule,
