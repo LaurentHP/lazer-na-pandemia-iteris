@@ -1,0 +1,20 @@
+<div class="button">
+<button class="fixed" mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+  <mat-icon>help</mat-icon>
+</button>
+
+<mat-menu class="menu" #menu="matMenu">
+  <button mat-menu-item>
+    <mat-icon>dialpad</mat-icon>
+    <span routerLink="">Home</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>games</mat-icon>
+    <span routerLink="">Lista de jogos</span>
+  </button>
+  <button mat-menu-item>
+    <mat-icon>help</mat-icon>
+    <span routerLink="">Precisando de ajuda?</span>
+  </button>
+</mat-menu>
+</div>

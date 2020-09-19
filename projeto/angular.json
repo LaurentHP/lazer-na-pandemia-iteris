@@ -125,6 +125,10 @@
   },
   "defaultProject": "projeto",
   "cli": {
+<<<<<<< HEAD
+    "analytics": "c92db042-9025-442f-b7a9-ff2b4fda18d8"
+=======
     "analytics": "d82a279d-2fd5-47ce-946f-394f41ee74f6"
+>>>>>>> d66d874a310d236793de71e21bad16c21be9b5bb
   }
 }
