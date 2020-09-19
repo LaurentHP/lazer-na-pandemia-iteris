@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SobrePageComponent implements OnInit {
 
-  title = 'Equipe 06';
+  title = 'Team 6';
   descricao = 'Desenvolvemos este projeto com o intuito de fornecer opções ao tédio em meio a quarentena. Dentro desta plataforma iremos falar um pouco sobre jogos digitais, de maneira acessível a todas as idades';
   copyright = 'Copyright 2020 Iteris Consultoria e Software LTDA';
 
